@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albo d'Oro Campionati</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Albo d'Oro Campionati</h1>
+
+<ul class="championship-list">
+  <li data-champ="mondiale">Mondiale</li>
+  <li data-champ="europei">Europei</li>
+  <li data-champ="copaamerica">Copa America</li>
+  <li data-champ="intercontinentale">Coppa Intercontinentale</li>
+  <li data-champ="champions">Champions League</li>
+  <li data-champ="copalibertadores">Copa Libertadores</li>
+  <li data-champ="premier">Premier League</li>
+  <li data-champ="seriea">Serie A</li>
+  <li data-champ="laliga">La Liga</li>
+  <li data-champ="bundesliga">Bundesliga</li>
+  <li data-champ="ligue1">Ligue 1</li>
+  <li data-champ="liganos">Liga NOS</li>
+  <li data-champ="eredivisie">Eredivisie</li>
+  <li data-champ="argentina">Campionato Argentino</li>
+  <li data-champ="brasile">Brasilerao</li>
+</ul>
+
+<h2 class="recap-title">Recap Club</h2>
+<div id="recapSection" class="recap-section"></div>
+
+<h2 class="recap-title">Recap Nazionali</h2>
+<div id="nationalRecapSection" class="recap-section"></div>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay">
+  <div class="overlay-content">
+    <button class="close-btn" id="closeBtn">&times;</button>
+    <h2 id="overlayTitle">Campionato</h2>
+    <div id="overlayContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

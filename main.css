@@ -1,0 +1,181 @@
+/* ======================
+   BASE
+====================== */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  padding: 18px 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* ======================
+   LISTA COMPETIZIONI
+====================== */
+
+.championship-list {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.championship-list li {
+  background: #1e293b;
+  margin: 8px 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  font-size: 14px;
+}
+
+.championship-list li:hover {
+  background: #334155;
+  border: 1px solid #3b82f6;
+}
+
+/* ======================
+   OVERLAY
+====================== */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background: #1e293b;
+  padding: 18px;
+  border-radius: 12px;
+  max-width: 520px;
+  width: 90%;
+  max-height: 85%;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.overlay-content h2 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+/* ======================
+   STAGIONI
+====================== */
+
+.winner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #334155;
+  font-size: 13px;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team-logo {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* ======================
+   CLASSIFICA
+====================== */
+
+.ranking-row, .national-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.ranking-left, .national-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ranking-right, .national-right {
+  font-weight: bold;
+}
+
+/* ======================
+   RECAP CLUB / NAZIONALI
+====================== */
+
+.recap-title {
+  margin-top: 35px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.recap-section {
+  max-width: 600px;
+  margin: 15px auto 50px auto;
+  padding: 0 10px;
+}
+
+.recap-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  transition: background 0.2s ease;
+  font-size: 13px;
+}
+
+.recap-row:hover {
+  background: #334155;
+}
