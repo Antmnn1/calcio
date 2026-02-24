@@ -1,5 +1,6 @@
 const championsData = {
     mondiale: [
+        { team: "Spagna" },
         { team: "Francia" },
         { team: "Spagna" },
         { team: "Portogallo" },
@@ -42,6 +43,7 @@ const championsData = {
     ],
 
     intercontinentale: [
+        { team: "Juventus" },
         { team: "Juventus" },
         { team: "Arsenal" },
         { team: "Arsenal" },
@@ -93,6 +95,7 @@ const championsData = {
 
     champions: [
         { team: "Juventus" },
+        { team: "Juventus" },
         { team: "Arsenal" },
         { team: "Arsenal" },
         { team: "Juventus" },
@@ -142,6 +145,7 @@ const championsData = {
     ],
 
     copalibertadores: [
+        { team: "RB Bragantino" },
         { team: "Palmeiras" },
         { team: "RB Bragantino" },
         { team: "Racing Club" },
@@ -192,6 +196,7 @@ const championsData = {
     ],
 
     premier: [
+        { team: "Manchester City" },
         { team: "Liverpool" },
         { team: "Arsenal" },
         { team: "Manchester City" },
@@ -246,6 +251,7 @@ const championsData = {
         { team: "Juventus" },
         { team: "Juventus" },
         { team: "Juventus" },
+        { team: "Juventus" },
         { team: "Inter" },
         { team: "Juventus" },
         { team: "Juventus" },
@@ -292,6 +298,7 @@ const championsData = {
     ],
 
     laliga: [
+        { team: "Atletico Madrid" },
         { team: "Real Madrid" },
         { team: "Real Madrid" },
         { team: "Real Madrid" },
@@ -342,6 +349,7 @@ const championsData = {
     ],
 
     bundesliga: [
+        { team: "Borussia Dortmund" },
         { team: "Borussia Dortmund" },
         { team: "Bayern Monaco" },
         { team: "Bayern Monaco" },
@@ -410,6 +418,7 @@ const championsData = {
         { team: "PSG" },
         { team: "PSG" },
         { team: "PSG" },
+        { team: "PSG" },
         { team: "Bordeaux" },
         { team: "Rennes" },
         { team: "Marsiglia" },
@@ -442,6 +451,7 @@ const championsData = {
     ],
 
     liganos: [
+        { team: "Sporting Lisbona" },
         { team: "Benfica" },
         { team: "Porto" },
         { team: "Sporting Lisbona" },
@@ -492,6 +502,7 @@ const championsData = {
     ],
 
     eredivisie: [
+        { team: "Ajax" },
         { team: "Az Alkmaar" },
         { team: "Ajax" },
         { team: "PSV" },
@@ -544,6 +555,7 @@ const championsData = {
     argentina: [
         { team: "Boca Juniors" },
         { team: "Boca Juniors" },
+        { team: "Boca Juniors" },
         { team: "Godoy Cruz" },
         { team: "Boca Juniors" },
         { team: "Boca Juniors" },
@@ -592,6 +604,7 @@ const championsData = {
     ],
 
     brasile: [
+        { team: "Palmeiras" },
         { team: "Palmeiras" },
         { team: "RB Bragantino" },
         { team: "Palmeiras" },
